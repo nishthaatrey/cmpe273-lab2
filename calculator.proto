@@ -1,0 +1,17 @@
+syntax="proto3"
+
+// service definition for addition of two numbers
+service CalculatorService{
+    rpc add(CalculatorRequest) returns (CalcultorResponse)
+}
+
+//numbers to be added
+message CalculatorRequest{
+    float num1= 1;
+    float num2= 2;
+}
+
+// result
+message CalcultorResponse{
+    float sum= 1;
+}

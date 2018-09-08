@@ -12,6 +12,6 @@ message CalculatorRequest{
 }
 
 // result
-message CalcultorResponse{
+message CalculatorResponse{
     float sum= 1;
 }
